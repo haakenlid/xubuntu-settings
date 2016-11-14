@@ -20,10 +20,10 @@
         <value type="int" value="4"/>
         <value type="int" value="6"/>
         <value type="int" value="20"/>
-        <value type="int" value="7"/>
         <value type="int" value="2"/>
+        <value type="int" value="7"/>
+        <value type="int" value="11"/>
       </property>
-      <property name="autohide" type="bool" value="false"/>
       <property name="disable-struts" type="bool" value="false"/>
       <property name="background-alpha" type="uint" value="75"/>
       <property name="background-style" type="uint" value="1"/>
@@ -36,48 +36,53 @@
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="leave-opacity" type="uint" value="100"/>
       <property name="length-adjust" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
     </property>
     <property name="panel-2" type="empty">
-      <property name="position" type="string" value="p=8;x=683;y=746"/>
+      <property name="position" type="string" value="p=10;x=689;y=730"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="11"/>
-        <value type="int" value="9"/>
         <value type="int" value="12"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
         <value type="int" value="14"/>
         <value type="int" value="5"/>
-        <value type="int" value="16"/>
-        <value type="int" value="13"/>
+        <value type="int" value="10"/>
       </property>
       <property name="mode" type="uint" value="0"/>
       <property name="nrows" type="uint" value="1"/>
-      <property name="size" type="uint" value="40"/>
-      <property name="length" type="uint" value="100"/>
+      <property name="size" type="uint" value="66"/>
+      <property name="length" type="uint" value="1"/>
       <property name="disable-struts" type="bool" value="true"/>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="background-color" type="array">
         <value type="uint" value="10280"/>
         <value type="uint" value="10280"/>
         <value type="uint" value="15420"/>
         <value type="uint" value="65535"/>
       </property>
-      <property name="autohide" type="bool" value="true"/>
       <property name="background-alpha" type="uint" value="75"/>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="leave-opacity" type="uint" value="100"/>
       <property name="length-adjust" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
     </property>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="applicationsmenu">
       <property name="show-button-title" type="bool" value="false"/>
+      <property name="show-generic-names" type="bool" value="false"/>
+      <property name="show-menu-icons" type="bool" value="true"/>
+      <property name="button-icon" type="string" value="xfce4-whiskermenu"/>
+      <property name="show-tooltips" type="bool" value="true"/>
+      <property name="custom-menu" type="bool" value="false"/>
     </property>
     <property name="plugin-3" type="string" value="tasklist">
       <property name="show-labels" type="bool" value="true"/>
       <property name="flat-buttons" type="bool" value="true"/>
       <property name="show-handle" type="bool" value="false"/>
       <property name="middle-click" type="uint" value="1"/>
-      <property name="show-wireframes" type="bool" value="true"/>
+      <property name="show-wireframes" type="bool" value="false"/>
       <property name="include-all-workspaces" type="bool" value="true"/>
       <property name="grouping" type="uint" value="1"/>
       <property name="switch-workspace-on-unminimize" type="bool" value="true"/>
@@ -93,8 +98,12 @@
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
-        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="drop-down terminal"/>
+        <value type="string" value="orage"/>
         <value type="string" value="google-chrome-stable"/>
+        <value type="string" value="x-www-browser"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="google-chrome"/>
         <value type="string" value="spotify"/>
       </property>
     </property>
@@ -107,12 +116,6 @@
       <property name="base-directory" type="string" value="/home/haakenlid"/>
     </property>
     <property name="plugin-2" type="string" value="datetime"/>
-    <property name="plugin-7" type="string" value="mixer">
-      <property name="sound-card" type="string" value="PlaybackcrasPulseAudioMixer"/>
-      <property name="track" type="string" value="Master"/>
-      <property name="command" type="string" value="xfce4-mixer"/>
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-    </property>
     <property name="plugin-9" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="14382951025.desktop"/>
@@ -121,19 +124,6 @@
     <property name="plugin-5" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="14382984791.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-11" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-13" type="string" value="separator">
-      <property name="expand" type="bool" value="true"/>
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-16" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="14383341292.desktop"/>
       </property>
     </property>
     <property name="plugin-17" type="string" value="launcher">
@@ -151,5 +141,19 @@
     <property name="plugin-21" type="string" value="separator">
       <property name="style" type="uint" value="1"/>
     </property>
+    <property name="plugin-8" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="14508849801.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-10" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="14559710141.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+    </property>
+    <property name="plugin-11" type="string" value="battery"/>
   </property>
 </channel>

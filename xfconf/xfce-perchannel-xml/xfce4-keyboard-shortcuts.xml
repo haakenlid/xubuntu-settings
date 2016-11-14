@@ -21,13 +21,25 @@
       <property name="&lt;Alt&gt;F1" type="string" value="xfce4-popup-applicationsmenu"/>
       <property name="&lt;Alt&gt;F3" type="string" value="xfce4-appfinder"/>
       <property name="&lt;Alt&gt;F2" type="string" value="xfce4-appfinder --collapsed"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
-      <property name="XF86Mail" type="string" value="exo-open --launch MailReader"/>
       <property name="XF86Display" type="string" value="xfce4-display-settings --minimal"/>
-      <property name="XF86WWW" type="string" value="exo-open --launch WebBrowser"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings --minimal"/>
       <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="override" type="bool" value="true"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="empty">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Shift&gt;F1" type="string" value="/home/haakenlid/.dotfiles/bin/touchpad">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="xflock4"/>
+      <property name="F1" type="string" value="/home/haakenlid/.dotfiles/bin/pull-down-terminal">
+        <property name="startup-notify" type="bool" value="true"/>
+      </property>
+      <property name="F10" type="string" value="volume up"/>
+      <property name="F9" type="string" value="volume down"/>
+      <property name="F8" type="string" value="volume mute toggle"/>
+      <property name="F6" type="string" value="brightness down"/>
+      <property name="F7" type="string" value="brightness up"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -108,7 +120,6 @@
       <property name="Escape" type="string" value="cancel_key"/>
       <property name="&lt;Primary&gt;F10" type="string" value="workspace_10_key"/>
       <property name="&lt;Primary&gt;F11" type="string" value="workspace_11_key"/>
-      <property name="&lt;Alt&gt;F11" type="string" value="fullscreen_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Up" type="string" value="move_window_up_key"/>
       <property name="Right" type="string" value="right_key"/>
       <property name="Down" type="string" value="down_key"/>
@@ -142,7 +153,8 @@
       <property name="&lt;Primary&gt;Right" type="string" value="right_workspace_key"/>
       <property name="&lt;Primary&gt;Up" type="string" value="prev_workspace_key"/>
       <property name="&lt;Primary&gt;Down" type="string" value="next_workspace_key"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;u" type="string" value="maximize_window_key"/>
+      <property name="F4" type="string" value="fullscreen_key"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;z" type="string" value="maximize_window_key"/>
     </property>
   </property>
   <property name="providers" type="array">

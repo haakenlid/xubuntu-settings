@@ -54,7 +54,7 @@
     <property name="snap_to_windows" type="bool" value="true"/>
     <property name="snap_width" type="int" value="46"/>
     <property name="sync_to_vblank" type="bool" value="false"/>
-    <property name="theme" type="string" value="Default"/>
+    <property name="theme" type="string" value="Numix"/>
     <property name="tile_on_move" type="bool" value="true"/>
     <property name="title_alignment" type="string" value="left"/>
     <property name="title_font" type="string" value="Sans Bold 9"/>
@@ -81,5 +81,10 @@
     </property>
     <property name="margin_top" type="int" value="0"/>
     <property name="margin_left" type="int" value="0"/>
+    <property name="cycle_preview" type="bool" value="true"/>
+    <property name="cycle_tabwin_mode" type="int" value="0"/>
+    <property name="horiz_scroll_opacity" type="bool" value="false"/>
+    <property name="titleless_maximize" type="bool" value="false"/>
+    <property name="zoom_desktop" type="bool" value="true"/>
   </property>
 </channel>

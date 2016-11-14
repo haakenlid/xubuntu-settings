@@ -7,6 +7,6 @@
       <value type="string" value="Master"/>
     </property>
   </property>
-  <property name="window-height" type="int" value="289"/>
-  <property name="window-width" type="int" value="495"/>
+  <property name="window-height" type="int" value="439"/>
+  <property name="window-width" type="int" value="648"/>
 </channel>
